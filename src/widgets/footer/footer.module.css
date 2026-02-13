@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    padding: 15px 100px;
+    flex-direction: column;
+    background-image: url(/public/footerback.svg);
+     background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+    height: 150px;
+    gap: 8px;
+}
+
+.up{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.up h1{
+    font-size: 22px;
+    width: 50%;
+}
+
+.up img{
+    width: 75px;
+    height: auto;
+}

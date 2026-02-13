@@ -1,0 +1,54 @@
+.title {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.MainPage {
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    flex-wrap: wrap;  
+    /*justify-content: space-around;*/
+    padding: 0 60px;
+}
+
+.homeTemplate {
+    position: relative;
+    height: 295px;
+    width: 271px;
+}
+
+.homeTemplate img {
+    position: absolute;
+}
+
+.homeTemplate p {
+    position: absolute;
+    left: 50px;
+    top: 15px;
+    background-color: rgba(203, 199, 199, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.homeTemplate button {
+    position: absolute;
+    bottom: 25px;
+    background-color: #F4B921;
+    border-radius: 10px;
+    padding: 10px 25px;
+    border: 1px solid white;
+    left: 70px;
+}
+

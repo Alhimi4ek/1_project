@@ -1,0 +1,38 @@
+.header{
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(251, 247, 242)
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.left h1{
+    font-size: 22px;
+    width: 50%;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.right img{
+    width: 35px;
+}
+
+.telicon{
+    width: 25px !important;
+}
