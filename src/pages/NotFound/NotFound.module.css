@@ -1,0 +1,59 @@
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    gap: 20px;
+}
+
+.img {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+
+.constructionBtn {
+  display: inline-block;
+  padding: 14px 28px;
+  background: #F59E0B;
+  color: #1E293B;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.25s ease;
+  box-shadow: 0 6px 0 #d97706;
+  margin-top: 8px;
+}
+
+/* Hover */
+.constructionBtn:hover {
+  background: #fbbf24;
+}
+
+/* Эффект нажатия */
+.constructionBtn:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 #d97706;
+}
+
+/* Строительная полоска */
+.constructionBtn::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: repeating-linear-gradient(
+    45deg,
+    #1E293B,
+    #1E293B 10px,
+    #F59E0B 10px,
+    #F59E0B 20px
+  );
+  border-radius: 0 0 8px 8px;
+}
