@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import styles from './header.module.css'
 
 const Header = () => {
@@ -8,10 +9,10 @@ const Header = () => {
                 <h1>Строительный магазин</h1>
             </div>
             <div className={styles.center}>
-                <p>Главная</p>
-                <p>Услуги</p>
-                <p>Проекты</p>
-                <p>Отзывы</p>
+                <NavLink to="/">Главная</NavLink>
+                <NavLink to="/service">Услуги</NavLink>
+                <NavLink to="/projects">Проекты</NavLink>
+                <NavLink to="/reviews">Отзывы</NavLink>
             </div>
             <div className={styles.right}>
                 <img src="./vk.svg" alt="vk" />

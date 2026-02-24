@@ -23,6 +23,10 @@
     gap: 33px;
 }
 
+.center a{
+    text-decoration: none;   
+}
+
 .right{
     display: flex;
     align-items: center;
