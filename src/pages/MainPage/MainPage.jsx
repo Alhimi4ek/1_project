@@ -1,14 +1,16 @@
-import { use, useState } from 'react'
+import { use, useEffect, useState } from 'react'
 import HomeTemplate from './Components/homeTemplate'
 import styles from './MainPage.module.css'
+import { getListHomes } from './service/service'
+
 
 const MainPage = () => {
-    const [home, setHome] = useState([
-        {name: 'Из Газобетона', img: './home2.svg', id: 1},
-        {name: 'Из Кирпича', img: './home1.svg', id: 2},
-        {name: 'Из Кирпича', img: './home2.svg', id: 3},
-        {name: 'Из Бетона', img: './home1.svg', id: 4}
-    ])
+    const [home, setHome] = useState([])
+
+    useEffect(() => {
+      getListHomes().then((res) => setHome(res.data))
+    }, [])
+
   return (
     <div className={styles.MainPage}>
       <h1 className={styles.title}>Строительство коттеджей</h1>
