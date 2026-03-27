@@ -5,7 +5,7 @@ const Footer = () => {
         <div className={styles.footer}>
             <div className={styles.inner}>
                 <div className={styles.up}>
-                    <img src="./icon.svg" alt="icon" />
+                    <img src="/icon.svg" alt="icon" />
                     <h1>Строительный магазин</h1>
                 </div>
                 <div className={styles.down}>

@@ -75,7 +75,7 @@ const MainPage = () => {
       <div className={styles.wrapper}>
         {
           home.map((h) => (
-            <HomeTemplate name={h.name} img={h.img} key={h.id} />
+            <HomeTemplate name={h.name} img={h.img} id={h.id} key={h.id} />
           ))
         }
       </div>

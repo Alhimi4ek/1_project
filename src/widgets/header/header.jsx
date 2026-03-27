@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className={styles.header}>
             <div className={styles.left}>
-                <img src="./icon.svg" alt="icon" />
+                <img src="/icon.svg" alt="icon" />
                 <h1>Строительный магазин</h1>
             </div>
             <div className={styles.center}>
@@ -15,8 +15,8 @@ const Header = () => {
                 <NavLink to="/reviews">Отзывы</NavLink>
             </div>
             <div className={styles.right}>
-                <img src="./vk.svg" alt="vk" />
-                <img className={styles.telicon} src="./tel.svg" alt="tel" />
+                <img src="/vk.svg" alt="vk" />
+                <img className={styles.telicon} src="/tel.svg" alt="tel" />
                 <p>+7 (999) 999-99-99</p>
             </div>
         </div>
