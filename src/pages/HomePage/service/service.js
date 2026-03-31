@@ -8,3 +8,7 @@ export const getHomeById = (id) => {
 export const patchHome =(id, payload) => {
     return openApi(BASE_URL).put(`/homes/${id}`, payload)
 }
+
+export const deleteHome = (id) => {
+    return openApi(BASE_URL).delete(`/homes/${id}`)
+}

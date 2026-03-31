@@ -18,7 +18,7 @@ const MainPage = () => {
   const [payload, setPayload] = useState({
     name: '',
     price: 0,
-    img: "./home1.svg"
+    img: "/home1.svg"
   });
 
   const handleChange = (e) => {
@@ -42,7 +42,7 @@ const MainPage = () => {
         setPayload({
           name: '',
           price: 0,
-          img: "./home1.svg"
+          img: "/home1.svg"
         })
         await getData()
       }
