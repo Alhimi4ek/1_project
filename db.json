@@ -1,0 +1,33 @@
+{
+  "homes": [
+   
+  {
+    "name": "Из Газобетона",
+    "img": "/home2.svg",
+    "id": "1"
+  },
+  {
+    "name": "sdfsdf",
+    "img": "/home1.svg",
+    "id": "2",
+    "price": "232"
+  },
+  {
+    "name": "Из Кирпича",
+    "img": "/home2.svg",
+    "id": "3"
+  },
+  {
+    "name": "Из Бетона",
+    "img": "/home1.svg",
+    "id": "4"
+  },
+  {
+    "id": "5",
+    "name": "dfsdfsdf",
+    "price": "877",
+    "img": "/home1.svg"
+  }
+
+  ]
+}
