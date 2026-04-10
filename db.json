@@ -1,33 +1,51 @@
 {
   "homes": [
-   
-  {
-    "name": "Из Газобетона",
-    "img": "/home2.svg",
-    "id": "1"
-  },
-  {
-    "name": "sdfsdf",
-    "img": "/home1.svg",
-    "id": "2",
-    "price": "232"
-  },
-  {
-    "name": "Из Кирпича",
-    "img": "/home2.svg",
-    "id": "3"
-  },
-  {
-    "name": "Из Бетона",
-    "img": "/home1.svg",
-    "id": "4"
-  },
-  {
-    "id": "5",
-    "name": "dfsdfsdf",
-    "price": "877",
-    "img": "/home1.svg"
-  }
-
+    {
+      "name": "Из Газобетона",
+      "img": "/home2.svg",
+      "id": "1"
+    },
+    {
+      "name": "sdfsdf",
+      "img": "/home1.svg",
+      "id": "2",
+      "price": "232"
+    },
+    {
+      "name": "Из Кирпича",
+      "img": "/home2.svg",
+      "id": "3"
+    },
+    {
+      "name": "Из Бетона",
+      "img": "/home1.svg",
+      "id": "4"
+    },
+    {
+      "id": "5",
+      "name": "dfsdfsdf",
+      "price": "877",
+      "img": "/home1.svg"
+    }
+  ],
+  "users": [
+    {
+      "email": "Joke@mail.ru",
+      "password": "$2a$10$TUBvMfIo3zbbOMOBz90k5ey/CsQ84L58tathXJZ1q.2/JvRz/4BMG",
+      "name": "Fdd",
+      "id": 1
+    },
+    {
+      "email": "Asdwww@mail.ru",
+      "password": "$2a$10$7dvhWwQ3FyJYj4t4R.nCfuuED2yQKsdS0kX2KzeZt93saLtVHoBpm",
+      "name": "Fol",
+      "id": 2
+    },
+    {
+      "email": "Fgggg@mail.ru",
+      "password": "$2a$10$.rWQ/CqjQ9cCytetwM5Ua.pCxcvhQY4sygfkBFEhrbvtWp.mFrWBK",
+      "name": "Lof",
+      "id": 3
+    }
   ]
 }

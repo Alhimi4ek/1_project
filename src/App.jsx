@@ -9,6 +9,7 @@ import ServicePage from './pages/ServicePage/ServicePage'
 import Projects from './pages/Projects/Projects'
 import Reviews from './pages/Reviews/Reviews'
 import NotFound from './pages/NotFound/NotFound'
+import RegisterPage from './pages/RegisterPage/RegisterPage'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Route path='/service' element={<ServicePage />} />
       <Route path='/projects' element={<Projects />} />  
       <Route path='/reviews' element={<Reviews />} />
+      <Route path='/register' element={<RegisterPage />} />
       <Route path='*' element={<NotFound />} />
     </Routes>
     <Footer />
